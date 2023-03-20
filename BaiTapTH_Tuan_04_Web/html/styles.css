@@ -11,16 +11,93 @@
         
         #center {
             width: 910px;
+            height: 1000px;
+            display: flex;
+        }
+        .img_small{
+            width: 833px;
+            display: flex;
+            flex-direction: row;
+            align-content: space-between;
             
         }
-        
-        #right {
-            width: 440px;
+        .img{
+            width: 261px;
+            display: flex;
+            flex-direction: row;
+            align-content: space-around;
+        }
+        .img_big {
+            display: flex;
+            width: 833px;
+            height:530px;
+            margin-top: 50px;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        #center_col{
+            width: 900px;
+            display: flex;
+            margin-top: 20px;
+            margin-left: 40px; 
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+
+        .circle{
+            position: absolute;
+            margin-top: 15px;
+            margin-left: 790px;
+        }
+        .corner_title{
+            position: absolute;
+            display: flex;
+            align-content: space-between;
         }
         
+       .smile{
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            background-repeat: no-repeat;
+       }
+       .smile_icon{
+            background-image: url(/img/smile.png);
+            width: 12px;
+            height: 12px;
+            background-repeat: no-repeat;
+            margin-left: 10px;
+       }
+
+
+
+
+        
+        #menu{
+            line-height: 50px;
+        }
+        #mini_box{
+            border: 2px gray;
+        }
+
+        #right {
+            width: 700px;
+            height: 1000px;
+            margin-left: 70px;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            border: 9px aqua;
+        }
+        .logo{
+            width: 60PX;
+            margin-top: 50px;
+        }
         #left {
+            margin-right: 30px;
             width: 90px;
-            height: 870px;
+            height: 1000px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -28,6 +105,7 @@
         
         #left_above {
             width: 100%;
+        
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -38,38 +116,113 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            margin-top: 10px;
+            word-spacing: 10px;
         }
-        .endMeet{
-            display: inline-block;
-        }
+        
         .item {
             width: 32px;
             margin-top: 50px;
         }
-        .img{
-            width: 300px;
-            height: 185px;
-            display: flex;
-            align-items: space-around;
-        }
-        .img_big {
-            width: 900px;
-            height:500px;
-            margin-top: 50px;
-        }
-        .participants{
-            display: flex;
-
-        }
-        .info{
-            display: flex;
-            align-content: space-around;
-            flex-direction: row;
-        }
-        .avatar{
+        .icon{
             width: 24px;
             height: 24px;
+            margin: 2px;
+        }
+        
+        #img_wrapper{
+            align-content: space-around;
+        }
+        .txt{
+            text-align: center;            
+        }
+        #participants{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border: 2px;
+            border-color: red;
+        }
+        #info{
+            display: flex;
+        }
+        .avatar{
+            width: 40px;
+            height: 40px;
+            margin-right:5px ;
+        }
+        #person{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
         }
         #setting {
             margin-top: 36px;
         }
+        #name{
+            display: flex;
+        }
+        #chatbox{
+            justify-content: space-between;
+            word-spacing: 2px;
+            line-height: 30px;
+            
+        }
+        
+        .func_btn{
+            margin: 5px;
+        }
+        #status{
+            position: absolute;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 12px;
+            margin-left: 12px;
+        }
+        .title{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+        .redborder{
+            background-color: white;
+            color: red;
+            font-size: 20px;
+            border: 2px solid red;
+            border-radius: 5px;
+            width: 100px;
+            height: 60px;
+            display: flex;
+            text-align: center;
+        }
+        .btn_endMeet{
+            background-color: red;
+            width: 120px;
+            height: 45px;
+            color: white;
+            border-radius: 5px;
+            margin: 5px;
+        }
+          input[type="text"] {
+            display: inline-flex;
+            width: 250px;
+            height: 50px;
+            border: 2px solid #ccc;
+            border-radius: 6px;
+          }
+        .red_4{
+            color: red;
+            font-size: 25px;
+            margin: 5px;
+        }
+        .participant_title{
+            font-size: 30px;
+            margin-right: 5px;
+        }
+        #textboxwrapper{
+            display: flex;
+        }
+        .flex{
+            display: flex;
+        }
+        
